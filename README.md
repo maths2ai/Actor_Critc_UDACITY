@@ -28,4 +28,5 @@ An installation can be obtained running "pip3 install torch torchvision"
 for which one can follow the link https://secretlab.institute/2019/07/11/installing-unity-ml-agents/
 4. Numpy if it is not already installed
 
-
+The code in the Jupyter notebook, which contains all the parts of the DDPG algorithm useful to solve the environment, can be run from top to bottom.
+Please avoid to run the last 4 cells of code. These are adds on in case one wants to try DDPG with experience replay buffer. In this case instaed of running the "Buffer cell" one can run the "Prio Buffer cell", instead of running the "Agent cell" one can run the "Beta function" and the "Agent_for_replay" cells and, finally, one can run the the "Main_for_replay"
