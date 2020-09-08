@@ -1,4 +1,4 @@
-# Actor_Critc_for_Udacity
+# Continuous Control for Udacity
 Solving a robot arm environment for the Udacity Deep Reinforcement Learning Course.
 
 TASK:
