@@ -32,5 +32,5 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/on
 
 # Executing the code:
 
-The code can be executed directly in the jupyter notebook running all the cells in order from top till the "Main" cell.
+The code can be executed directly in the jupyter notebook running all the cells in order from the second one till the "Main" cell.
 After the "Main" cell there are some additional cells if one wants to modify DDPG and turn it into a naive version of D4PG. In order to do so follow the instruction into the notebook.
