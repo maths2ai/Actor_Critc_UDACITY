@@ -16,13 +16,6 @@ The environment is considered solved if we get an average reward of +30 along 10
 
 ## Installation
 
-Install deep reinforcement learning repository
-
-1. Clone deep reinforcement learning repository https://github.com/udacity/deep-reinforcement-learning
-2. Fallow the instructions to install necessary dependencies https://github.com/udacity/deep-reinforcement-learning#dependencies
-
-## Download the Unity Environment
-
 Download environment for your system into this repository root
 
 1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip
@@ -35,12 +28,9 @@ Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/on
 
 2. Unzip (or decompress) the archive
 
-## Run the project
+3. Run the requirements.txt in the shell: pip install -r requirements.txt
 
-Start the jupyter server
+# Executing the code:
 
-Open the Continuous_Control.ipynb notebook
-
-Change the kernel to drlnd 
-
-Run cells from top to bottom in the Jupyter Notebook, till the Prio Buffer cell. If you want to run the DDPG with the add of a prioritized experience buffer follow the instructions in the markdowns in the Jupyter Notebook.
+The code can be executed directly in the jupyter notebook running all the cells in order from top till the "Main" cell.
+After the "Main" cell there are some additional cells if one wants to modify DDPG and turn it into a naive version of D4PG. In order to do so follow the instruction into the notebook.
