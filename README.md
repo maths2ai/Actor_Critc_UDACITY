@@ -16,7 +16,7 @@ The environment is considered solved if we get an average reward of +30 along 10
 
 ## Installation
 
-Download environment for your system into this repository root
+Download the environment (in point 1. below) for your system into the cloned repository directory.
 
 1. Linux: https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip
 
@@ -26,7 +26,7 @@ Windows (32-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/on
 
 Windows (64-bit): https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip
 
-2. Unzip (or decompress) the archive
+2. Unzip (or decompress) the archive downloaded in point 1. above.
 
 3. Run the requirements.txt in the shell: pip install -r requirements.txt
 
